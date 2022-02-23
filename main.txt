@@ -10,6 +10,7 @@ A.Possible UI errors
 - Bad logic -ex: infinite loop cases
 
 B.Possible backend failures
+1.Internet drop before saving in remote database 
 
 C.Make better UI
 1.Make interactive 
