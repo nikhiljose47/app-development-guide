@@ -5,6 +5,10 @@ Test cases
 - unexpected closing & relacunching
 - unexpected closing of tab
 
-2.Check code prblems
+2.Check code problems
 - Arithmetic failures
 - Bad logic -ex: infinite loop cases
+
+Make better UI
+1.Make interactive 
+2.Make live, assisting  
