@@ -15,3 +15,11 @@ C.Make better UI
 1.Make interactive 
 2.Make live, assisting  
 3.Rewarding - Smart animations
+
+
+D.App building 
+1.Focus ideas -> see dream UI 
+2.Best module based ui building
+3.Structure the backend data (ex:json)
+4.Build the minimum backend methods
+5.Connect online servers 
