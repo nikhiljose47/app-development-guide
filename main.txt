@@ -1,0 +1,10 @@
+Test cases
+1.Check user's input
+- Long names
+- Break/Slow internent
+- unexpected closing & relacunching
+- unexpected closing of tab
+
+2.Check code prblems
+- Arithmetic failures
+- Bad logic -ex: infinite loop cases
