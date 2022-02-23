@@ -1,4 +1,4 @@
-Test cases
+A.Possible UI errors
 1.Check user's input
 - Long names
 - Break/Slow internent
@@ -9,7 +9,9 @@ Test cases
 - Arithmetic failures
 - Bad logic -ex: infinite loop cases
 
-Make better UI
+B.Possible backend failures
+
+C.Make better UI
 1.Make interactive 
 2.Make live, assisting  
 3.Rewarding - Smart animations
