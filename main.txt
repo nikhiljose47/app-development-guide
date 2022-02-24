@@ -19,8 +19,13 @@ C.Make better UI
 
 
 D.App building 
+Front End
 1.Focus ideas -> see dream UI 
 2.Best module based ui building
-3.Structure the backend data (ex:json)
-4.Build the minimum backend methods
-5.Connect online servers 
+3.Architect the input data (ex:json)
+Back End
+1.Choose backend 
+2.Build db methods to retrieve & post
+3.Build service methods to handle internet failures, slow, integrity in db
+4.Check secure method of data storage, sending
+5.Export sample data to online servers, start testing. 
