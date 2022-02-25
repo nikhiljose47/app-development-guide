@@ -1,0 +1,5 @@
+A.Make better UI
+1.Make interactive 
+2.Make live, assisting  
+3.Rewarding - Smart animations
+4.Better to show help/rules to play in a small pop up after user made mistake(when he needed!)  
