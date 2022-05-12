@@ -9,3 +9,6 @@
     //   loginToast("Incorrect Email");
     // }
   }
+
+2.Timeout
+ setTimeout(()=> {}, 1000);
