@@ -66,3 +66,4 @@ with css -
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
   }
+https://stackoverflow.com/questions/62682521/by-first-click-select-div-and-unselect-others-by-second-click-on-the-same-div-u
