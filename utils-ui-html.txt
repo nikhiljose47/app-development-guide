@@ -1,5 +1,8 @@
-//1.Add images 
-//requie: Add css only
+//1.Add images - 2 types
+with element -
+<img src="/assets/images/mygif.gif" />
+
+with css -
 #bg{
     width: 100%;
     height: 100%;
