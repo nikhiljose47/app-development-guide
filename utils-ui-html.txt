@@ -39,3 +39,23 @@ with css -
 #middle {width: 50%; background: green;}
 #right {width: 25%; background: yellow;}
 
+5.Select one with unselect others
+//css
+.show {
+  display: block;
+}
+//html
+<a (click)="openDropDown()" (pointerleave)="closeDropDown()" >
+  <div id="myDropdown" class="dropdown-content">
+        <a routerLink="/game-two">Ghost</a>
+        <a routerLink="/game-three">Follow</a>
+  </div>
+//ts    
+  openDropDown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  closeDropDown() {
+    var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+  }
