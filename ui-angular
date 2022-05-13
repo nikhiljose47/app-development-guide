@@ -1,0 +1,5 @@
+1.Audio
+this.audio = new Audio();
+this.audio.src = "../../../assets/sounds/button_1.mp3";
+this.audio.load();
+this.audio.play();
