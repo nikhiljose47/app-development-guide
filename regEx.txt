@@ -1,0 +1,15 @@
+Whole select number/pattern
+Operators: +
+ex: [0-9]+ , + will match one or more of what precedes it (a number in this case)
+
+Replace
+(content) -> $1
+ex: 
+Problem: Make = 1-664 --> (+1-664)
+regEx: ([0-9|-]+$)  --> (+$1)
+
+Usage in regEx 
+regex = new Regex("^[0-9]+$");
+The ^ will anchor the beginning of the string, 
+the $ will anchor the end of the string,
+the + will match one or more of what precedes it (a number in this case)
