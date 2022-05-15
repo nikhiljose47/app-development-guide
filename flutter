@@ -1,0 +1,9 @@
+1.Round bordered container
+Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.black),
+                      shape: BoxShape.circle),
+                        padding: EdgeInsets.all(8),
+                      width:30,
+                      height: 30,
+                )
