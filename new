@@ -1,0 +1,21 @@
+object o1 = "somestring";
+object o2 = 1;
+object o3 = new object();
+object o4 = null;
+
+Console.WriteLine((string)o1);           // returns "somestring"
+Console.WriteLine(o1 as string);         // returns "somestring"
+Console.WriteLine(o1.ToString());        // returns "somestring"
+Console.WriteLine(Convert.ToString(o1)); // returns "somestring"
+Console.WriteLine((string)o2);           // throws System.InvalidCastException
+Console.WriteLine(o2 as string);         // returns null
+Console.WriteLine(o2.ToString());        // returns "1"
+Console.WriteLine(Convert.ToString(o2)); // returns "1"
+Console.WriteLine((string)o3);           // throws System.InvalidCastException
+Console.WriteLine(o3 as string);         // returns null
+Console.WriteLine(o3.ToString());        // returns "System.Object"
+Console.WriteLine(Convert.ToString(o3)); // returns "System.Object"
+Console.WriteLine((string)o4);           // returns null
+Console.WriteLine(o4 as string);         // returns null
+Console.WriteLine(o4.ToString());        // throws System.NullReferenceException
+Console.WriteLine(Convert.ToString(o4)); // returns string.Empty
