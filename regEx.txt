@@ -8,6 +8,7 @@ ex:
 Problem: Make = 1-664 --> (+1-664)
 regEx: ([0-9|-]+$)  --> (+$1)
 
+Basic:
 Exact match
 We need to tell end match or start by 
 ex: select exact cat from [cat., cat gp, catastophy] -->  ^cat$ --> [cat., <cat> gp, catastophy]
